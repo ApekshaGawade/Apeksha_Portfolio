@@ -1,0 +1,145 @@
+/* Navigation */
+.navbar 
+{
+    background: linear-gradient(45deg,rgb(43, 42, 42),rgb(66, 62, 62));
+    font-weight: bold;
+    font-size:25px;
+    font-family: Poppins;
+}
+.navbar-brand{font-size:35px;}
+.coll
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item
+{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+a
+{
+    color: white !important;
+}
+.nav-item:hover
+{
+    transition: 0.3s;
+    background: linear-gradient(45deg,#439cfb,#f187fb,transparent);
+    border-radius:5%;
+}
+/* Main body */
+.main
+{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(45deg,#439cfb,#f187fb,transparent);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:100px 0px 100px 0px;
+    color: azure;
+}
+h1
+{
+    font-size:80px;
+    padding-bottom: 20px;
+}
+em{font-size:50px ;}
+
+/* Projects */
+.projects
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.title
+{
+    color:black;  
+    font-size:50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.my-card
+{
+    width: 22rem;
+    height: 24rem;
+    margin: 30px;
+    border: 2px solid black;;
+}
+img
+{
+    border: 1px solid black;
+}
+.card-body
+{
+    text-align: center;
+    padding: 5px;
+}
+
+/* footer */
+.foot
+{
+    height:auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom:30px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Segoe UI;
+    /* background: linear-gradient(45deg,rgb(43, 42, 42),rgb(66, 62, 62)); */
+    background: linear-gradient(45deg,#439cfb,#f187fb,transparent);
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons
+{
+    margin-top:2.3em;
+    display: flex;
+}
+a:hover{cursor: pointer;}
+.icons i
+{
+    opacity: 1;
+    font-size:1.8em;
+    transition: 0.2s;
+    padding: 0.65em;
+    margin: 20px;
+    display: grid;
+    border-radius: 50%;
+    place-items: center;
+    box-shadow: -11px -11px 25px rgba(255,255,255,0.35), 11px 13px 25px rgba(165,181,208,0.73);
+}
+.icons i:hover
+{
+    opacity:1;
+    background: rgb(114, 110, 110);
+    border-radius: 50%;
+    transform:scale(1.1);
+    mix-blend-mode: normal;
+    box-shadow: -11px -11px 22px rgba(255,255,255,0.52),11px 13px 22px rgba(165,181,208,0.92),
+           inset -11px -11px 28px rgba(255,255,255,0.69),inset 11px 13px 28px rgba(166,181,208,0.85) ;
+}
+
+@media (max-width: 480px)
+{
+    *
+    {
+        font-size: 20px !important;
+    }
+    .navbar
+    {
+        position: relative;
+    }
+    .my-card
+    {
+        width: 250px;
+        height: auto;
+    }
+}
