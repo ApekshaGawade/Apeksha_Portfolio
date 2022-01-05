@@ -1,7 +1,8 @@
 /* Navigation */
 .navbar 
 {
-    background: linear-gradient(45deg,rgb(43, 42, 42),rgb(66, 62, 62));
+    /* background: linear-gradient(45deg,rgb(43, 42, 42),rgb(66, 62, 62)); */
+    background: #45beed !important;
     font-weight: bold;
     font-size:25px;
     font-family: Poppins;
@@ -24,21 +25,22 @@ a
 .nav-item:hover
 {
     transition: 0.3s;
-    background: linear-gradient(45deg,#439cfb,#f187fb,transparent);
-    border-radius:5%;
+    background: rgba(255,255,255,0.5);
+    /* border-radius:50%; */
 }
 /* Main body */
 .main
 {
     height: auto;
     width: 100%;
-    background: linear-gradient(45deg,#439cfb,#f187fb,transparent);
+    /* background: linear-gradient(45deg,#439cfb,#f187fb,transparent); */
+    background: no-repeat center center fixed url("/Images/background.png");
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     padding:100px 0px 100px 0px;
-    color: azure;
+    color: black;
 }
 h1
 {
@@ -90,7 +92,8 @@ img
     color: aliceblue;
     font-family: Segoe UI;
     /* background: linear-gradient(45deg,rgb(43, 42, 42),rgb(66, 62, 62)); */
-    background: linear-gradient(45deg,#439cfb,#f187fb,transparent);
+    /* background: linear-gradient(45deg,#439cfb,#f187fb,transparent); */
+    background:#45beed;
 }
 .footer
 {
@@ -119,10 +122,10 @@ a:hover{cursor: pointer;}
 .icons i:hover
 {
     opacity:1;
-    background: rgb(114, 110, 110);
+    background: rgba(255,255,255,0.3);
     border-radius: 50%;
     transform:scale(1.1);
-    mix-blend-mode: normal;
+    mix-blend-mode:normal;
     box-shadow: -11px -11px 22px rgba(255,255,255,0.52),11px 13px 22px rgba(165,181,208,0.92),
            inset -11px -11px 28px rgba(255,255,255,0.69),inset 11px 13px 28px rgba(166,181,208,0.85) ;
 }
