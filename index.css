@@ -34,7 +34,7 @@ a
     height: auto;
     width: 100%;
     /* background: linear-gradient(45deg,#439cfb,#f187fb,transparent); */
-    background: no-repeat center url("./Images/background.png");
+    background:no-repeat center url("./Images/background.png");
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -66,14 +66,14 @@ em{font-size:50px ;}
 }
 .my-card
 {
-    width: 22rem;
-    height: 24rem;
+    width: 20rem;
+    height: 22rem;
     margin: 30px;
-    border: 2px solid black;;
+    border: 2px solid #45beed;
 }
 img
 {
-    border: 1px solid black;
+    border: 3px solid transparent;
 }
 .card-body
 {
