@@ -1,0 +1,183 @@
+*
+/* Navigation */
+.navbar 
+{
+    background: rgba(0,0,0,0.5) !important;
+    font-weight: bold;
+    font-size:25px;
+    font-family: Poppins;
+}
+.navbar-brand{font-size:35px;}
+.coll
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item
+{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+a
+{
+    color: white !important;
+}
+.nav-item:hover
+{
+    transition: 0.3s;
+    background: rgba(255,255,255,0.3);
+}
+.navbar-toggler
+{
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+/* Main body */
+.main
+{
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.5)), url("./Images/background.jpg");
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:12rem 0;
+    color: white;
+}
+h1
+{
+    font-size:80px;
+    padding-bottom: 20px;
+}
+em{font-size:50px ;}
+
+/* Projects */
+.projects
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.title
+{
+    color:black;  
+    font-size:50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+}
+.my-card
+{
+    width: 15rem;;
+    height: auto;
+    margin: 30px;
+    border: 3px solid black;
+}
+img
+{
+    border: 3px solid transparent;
+    height: 10rem;
+}
+.card-body
+{
+    text-align: center;
+}
+.btn
+{
+    padding:.3rem !important;
+    background-color: #000000;
+    color:white;
+    border:2px solid #000000;
+}
+/* footer */
+.foot
+{
+    height:auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom:30px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Segoe UI;
+   background-color: black;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons
+{
+    margin-top:2.3em;
+    display: flex;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+}
+.icons i
+{
+    opacity: 1;
+    font-size:1.8em;
+    transition: 0.2s;
+    padding: 0.65em;
+    margin: 20px;
+    display: grid;
+    border-radius: 50%;
+    place-items: center;
+    border: 1px solid white;
+}
+.icons i:hover
+{
+    opacity:1;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+    transform:scale(1.1);
+    mix-blend-mode:normal;
+    box-shadow:  inset -11px -11px 28px rgba(255,255,255,0.69),inset 11px 13px 28px rgba(166,181,208,0.85) ;
+}
+
+@media (max-width: 480px)
+{
+    *
+    {
+        font-size: 20px !important;
+    }
+    .navbar
+    {
+        position: relative;
+        background-color:black !important;
+    }
+    img
+    {
+        width:10rem;
+        height:7rem;
+    }
+    .my-card
+    {
+        width:auto;
+    }
+    .card-body
+    {
+        padding:0.3rem !important;
+    }
+    h6,.btn,h3
+    {
+        font-size: 15px !important;
+    }
+    .footer
+    {
+        font-size: 5px !important;
+    }
+}
